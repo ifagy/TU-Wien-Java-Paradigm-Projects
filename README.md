@@ -1,22 +1,22 @@
-# Multi-Paradigm Java Development (TU Wien)
+🚀 Proje Portfolyosu: Multi-Paradigm Java Systems (TU Wien)
+Bu depo, TU Wien'de (Viyana Teknik Üniversitesi) tamamladığım 8 kapsamlı programlama görevini içermektedir. Projeler, Java dilinin en ileri seviye özelliklerini kullanarak farklı yazılım paradigmalarını harmanlamaktadır.
 
-Bu proje serisi, Java dilinin farklı paradigmalarını (Prosedürel, OOP, Fonksiyonel, Paralel) kullanarak karmaşık sistemlerin simülasyonunu ve optimizasyonunu içerir.
+🛠 Teknik Yetkinlikler ve Proje Özeti
 
-## Proje İçeriği
+Ecosystem & Simulation (Aufgabe 1-3): * Biyolojik popülasyonların etkileşimini modelleyen karmaşık bir simülasyon geliştirildi.
 
-### 1. Ekosistem Simülasyonu (Aufgabe 1-3)
-- [cite_start]Biyolojik popülasyonların etkileşimini modelleyen dinamik simülasyon[cite: 1025].
-- [cite_start]**Design-by-Contract:** Ön/Son koşullar ve Invariantlar ile kod güvenliği[cite: 761, 814].
 
-### 2. Tip Teorisi ve Jenerik Yapılar (Aufgabe 4-5)
-- [cite_start]**Liskov Substitution Principle (LSP):** Katı alt tip hiyerarşileri[cite: 647, 658].
-- [cite_start]**Custom Generics:** Standart kütüphane (`java.util`) kullanmadan sıfırdan jenerik veri yapıları (Set, OrderedSet)[cite: 339, 423].
+Design-by-Contract prensipleriyle kodun her aşamasında ön/son koşullar (pre/post-conditions) ve invariantlar tanımlandı.
 
-### 3. Reflection ve Metadata (Aufgabe 6)
-- [cite_start]**Reflection API:** Çalışma zamanında dinamik veri analizi[cite: 276, 288].
-- [cite_start]**Custom Annotations:** Sorumluluk ve kısıtların meta-veri ile yönetimi[cite: 285, 320].
 
-### 4. Bees Algorithm & Parallel Computing (Aufgabe 7-8)
-- [cite_start]**Functional Programming:** Java 8 Streams ve Higher-Order Functions ile optimizasyon[cite: 167, 177].
-- [cite_start]**Concurrency:** Multi-process ve multi-thread mimarisiyle paralel hesaplama[cite: 8, 37].
-- [cite_start]**IPC:** Pipeline tabanlı süreçler arası iletişim[cite: 39, 40].
+Advanced Type Theory & Custom Generics (Aufgabe 4-5): * Liskov Substitution Principle (LSP) temelinde katı alt tip hiyerarşileri kuruldu.
+
+Standart Java koleksiyon kütüphaneleri (java.util) kullanılmadan, sıfırdan jenerik (generic) Set ve OrderedSet veri yapıları inşa edildi.
+
+
+Dynamic Programming & Reflection (Aufgabe 6): * instanceof veya tip casting işlemlerinin yasak olduğu bir ortamda, Reflection API ve özel Annotation yapıları kullanılarak dinamik veri analizi yapıldı.
+
+
+Optimization & Parallel Computing (Aufgabe 7-8): * Bees Algorithm (Arı Algoritması): Karmaşık fonksiyonların optimizasyonu için hem fonksiyonel (Java 8 Streams) hem de paralel (multi-process & multi-thread) yapılar geliştirildi.
+
+Süreçler arası iletişim (IPC) için Pipeline mimarisi kullanıldı ve senkronizasyon problemleri düşük seviyeli (low-level) yöntemlerle çözüldü.
